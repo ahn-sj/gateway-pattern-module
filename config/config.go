@@ -10,6 +10,7 @@ type App struct {
 		Version string `yaml:"version"`
 	} `yaml:"app"`
 
+	Http HttpCfg `yaml:"http"`
 	// Producer - 1 Producer
 	// HTTP     - N Client
 }
