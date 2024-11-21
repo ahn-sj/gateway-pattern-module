@@ -2,4 +2,10 @@
 
 - Settings > Go Modules > Enable Go Modules 체크
 
+### dependency
 
+```go
+go get github.com/confluentinc/confluent-kafka-go
+go get github.com/go-resty/resty/v2
+go get github.com/bytedance/sonic
+```
